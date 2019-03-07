@@ -22,7 +22,7 @@ public class Main {
 		sq.draw();
 		
 		// Triangle
-		Triangle tr = new Triangle(10, 20, 25);
+		Triangle tr = new Triangle(3, 4, 5);
 		System.out.println("Triangle contour is " + tr.contour());
 		System.out.println("Triangle area is " + tr.area());
 		tr.draw();
